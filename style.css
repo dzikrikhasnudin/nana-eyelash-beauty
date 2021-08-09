@@ -112,9 +112,23 @@ section {
     .copywriting {
         text-align: center;
     }
+    .copywriting h1 {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        line-height: 60px;
+    }
 
     .waktu {
         text-align: start;
+    }
+
+    .waktu p {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    section {
+        padding-top: 20px;
     }
 
 }
