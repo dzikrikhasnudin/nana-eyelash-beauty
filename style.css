@@ -68,10 +68,15 @@ section {
     margin-top: 30px;
     width: 230px;
     background-color: #DAB08E;
-    color: #fff;
+    
     font-size: 20px;
     font-weight: 500;
     box-shadow: 0 2px 8px #DAB08E;
+}
+
+.btn-reservasi a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .btn-reservasi:hover {
@@ -129,6 +134,18 @@ section {
     }
     section {
         padding-top: 20px;
+    }
+
+    .google-maps, .sosial-media {
+        margin-top: 30px;
+    }
+
+    .sosial-media {
+        text-align: center;
+    }
+
+    .icon-sosial-media img {
+        margin-right: 2px;
     }
 
 }
@@ -199,10 +216,13 @@ footer {
     background-color: #edebe9;
 }
 
-.icon-sosial-media img {
-    margin-right: 24px;
+.icon-sosial-media .instagram {
+    margin-right: 20px;
 }
 
+.icon-sosial-media .tiktok  {
+    margin-left: 20px;
+}
 .copyright {
     margin-top: 50px;
     border-top: 1px solid #d5d5d5;
